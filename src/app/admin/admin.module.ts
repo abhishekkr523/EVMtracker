@@ -38,15 +38,10 @@ import { EvmkhanpurComponent } from '../MyComponents/evmkhanpur/evmkhanpur.compo
     AdminVoterDetailsComponent,
     ChartComponent,
     AdminDashboardComponent,
-    AdminDashboardTracComponent,
     TrackerComponent,
     TeamsTrackerComponent,
     TeamsComponent,
-    EvmTrackingComponent,
-    EvmjhalawarComponent,
-    EvmdagComponent,
-    EvmmanoharthanaComponent,
-    EvmkhanpurComponent,
+    
 
 
   ],

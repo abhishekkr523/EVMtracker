@@ -30,10 +30,10 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.valid) {
       if (username === this.loginForm.value.username && password === this.loginForm.value.password) {
         // Redirect to the user component.
-        this.router.navigate(['/admin/admindashboardtrac/evmtracking']);
+        this.router.navigate(['/user']);
       } else if (superuserUsername === this.loginForm.value.username && superuserPassword === this.loginForm.value.password) {
         // Redirect to the admin component.
-        this.router.navigate(['/admin/admindashboard']);
+        this.router.navigate(['/admin']);
       } else {
         alert("This is not the correct information.");
       }

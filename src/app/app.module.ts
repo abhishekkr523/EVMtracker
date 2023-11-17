@@ -32,7 +32,7 @@ import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
 import { AdminVoterDetailsComponent } from './MyComponents/admin-voter-details/admin-voter-details.component';
 import { AdminDashboardComponent } from './MyComponents/admin-dashboard/admin-dashboard.component';
 import { TeamsTrackerComponent } from './MyComponents/teams-tracker/teams-tracker.component';
-import { EvmdialogComponent } from './MyComponents/evmdialog/evmdialog.component';
+
 // import { AdminDashboardTracComponent } from './MyComponents/admin-dashboard-trac/admin-dashboard-trac.component';
 // import { EvmjhalawarComponent } from './MyComponents/evmjhalawar/evmjhalawar.component';
 // import { EvmdagComponent } from './MyComponents/evmdag/evmdag.component';
@@ -46,7 +46,7 @@ import { EvmdialogComponent } from './MyComponents/evmdialog/evmdialog.component
     AppComponent,
     LoginComponent,
     PatanVotersComponent,
-    EvmdialogComponent,
+    // EvmdialogComponent,
     // AdminDashboardTracComponent,
     // EvmjhalawarComponent,
     // EvmdagComponent,
