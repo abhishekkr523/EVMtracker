@@ -1,0 +1,35 @@
+<div class="parent">
+    <div class="details">
+        <h1>Voters</h1>
+        <div class="filter">
+            <form action="">
+                <select [(ngModel)]="selectedDate" (change)="filterData()" name="selectedDate">
+                    <option value="">All Dates</option>
+                    <option *ngFor="let date of dateOptions" [value]="date">{{ date }}</option>
+                </select>
+
+                <select [(ngModel)]="selectedTeam" (change)="filterData()" name="selectedTeam">
+                    <option value="">All Teams</option>
+                    <option *ngFor="let team of getTeamsForConstituency()" [value]="team">{{ team }}</option>
+                </select>
+            </form>
+        </div>
+        <div class="voterList">
+            <div class="card" *ngFor="let user of filteredData">
+                <!-- Display user data in card format -->
+                <mat-card (click)="openDialog(user)">
+                    <mat-card-content>
+                        <p>Name: {{user.name}}</p>
+                        <p>Epic Number: {{user.epicNumber}}</p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+    <div class="chart">
+        <div>
+            <canvasjs-chart [options]="chartOptions" [styles]="{width: '100%', height:'360px'}"></canvasjs-chart>    
+        </div> 
+        
+    </div>
+</div>

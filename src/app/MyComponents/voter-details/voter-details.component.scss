@@ -1,0 +1,55 @@
+.parent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .voterInfo {
+        border: 1px solid black;
+        border-radius: 3rem;
+        padding: 2rem;
+
+        .partSer {
+            justify-content: space-between;
+
+            .serial {
+                margin-left: 1rem;
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            height: 2rem;
+        }
+    }
+
+    .reason {
+
+        .infoReason {
+            width: auto;
+            border: 1px solid black;
+            border-radius: 3rem;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .availability{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+
+        .dropdown{
+            margin-left: 1rem;
+        }
+    }
+}

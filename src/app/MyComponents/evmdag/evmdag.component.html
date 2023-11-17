@@ -1,0 +1,7 @@
+
+<div *ngFor="let row of buttonRows">
+    <div class="button-row">
+      <button *ngFor="let index of row" class="my-button" (click)="openDialog()">Button {{ index }}</button>
+    </div>
+  </div>
+  

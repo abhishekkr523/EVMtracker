@@ -1,0 +1,128 @@
+<div class="parent">
+    <div class="sidebar">
+
+        <div class="logo_details">
+            <i class="bx bxl-audible icon"></i>
+            <div class="logo_name">Election 2023</div>
+        </div>
+        <ul class="nav-list">
+            <div class="const">
+
+                <li><a routerLink="/admin" (click)="ToggleDropdown()">
+                    <i class="bx bx-home"></i>
+                        <span class="link_name">Constituency</span>
+                    </a>
+                </li>
+                <li id="constituency">
+                    <div class="dropdown-content">
+                <li><a routerLink="/adminVoters">
+                        <i class="bx bx-group"></i>
+                        <span class="link_name">Jhalrapatan</span>
+                    </a>
+                    
+                </li>
+
+                <li><a routerLink="/adminVoters">
+                        <i class="bx bx-group"></i>
+                        <span class="link_name">Khanpur</span>
+                    </a>
+                </li>
+
+                <li><a routerLink="/adminVoters">
+                        <i class="bx bx-group"></i>
+                        <span class="link_name">Dag</span>
+                    </a>
+                </li>
+
+                <li><a routerLink="/adminVoters">
+                        <i class="bx bx-group"></i>
+                        <span class="link_name">Manoharthana</span>
+                    </a>
+                </li>
+
+
+            </div>
+            </li>
+             </div>
+            <div class="tracker">
+             <li>
+                <a (click)="toggleDropdown('tracker')" routerLink="/tracker">
+                  <i class="bx bx-map"></i>
+                  <span class="link_name">Tracker</span>
+                </a>
+              </li>
+              <li id="constituency">
+                <div class="dropdown-content tracker-dropdown">
+                  <li>
+                    <a routerLink="/teams" >
+                      <i class='bx bxs-map-pin'></i>
+                      <span class="link_name">Jhalrapatan</span>
+                    </a>
+                  </li>
+              
+                  <li>
+                    <a routerLink="/teams" >
+                        <i class='bx bxs-map-pin'></i>
+                      <span class="link_name">Khanpur</span>
+                    </a>
+                  </li>
+              
+                  <li>
+                    <a routerLink="/teams" >
+                        <i class='bx bxs-map-pin'></i>
+                      <span class="link_name">Dag</span>
+                    </a>
+                  </li>
+              
+                  <li>
+                    <a routerLink="/teams" >
+                        <i class='bx bxs-map-pin'></i>
+                      <span class="link_name">Manoharthana</span>
+                    </a>
+                  </li>
+                </div>
+              </li>
+             
+            </div>
+
+            <div class="evmTracking">
+              <li>
+                <a routerLink="/evmTracking">
+                  <i class="bx bx-map"></i>
+                  <span class="link_name">EVM Tracking</span>
+                </a>
+              </li>
+            </div>
+
+            <div class="download">
+              <li>
+                <a  routerLink="#">
+                  <i class='bx bxs-download'></i>
+                  <span class="link_name">Download</span>
+                </a>
+              </li>
+            </div>
+
+            
+
+
+    <li class="profile">
+        <div class="profile_details">
+            <img src="../../../assets/Gagron_Parrott-Final.png" alt="profile image">
+            <div class="profile_content">
+                <div class="name">Admin</div>
+            </div>
+        </div>
+        <i class="bx bx-log-out" id="log_out" routerLink="/login"></i>
+    </li>
+
+
+    </ul>
+
+
+</div>
+<section class="home-section">
+    <div class="text">Dashboard</div>
+    <router-outlet></router-outlet>
+</section>
+</div>

@@ -1,0 +1,25 @@
+.parent{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .text{
+        height: 10vh;
+        width: 50vw;
+    }
+    #map {
+        width: 50vw;
+        height: 80vh;
+        overflow: hidden;
+        // background-color: red;
+        border-left: 1px solid black;
+    }
+}
+
+button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }

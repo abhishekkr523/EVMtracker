@@ -1,0 +1,50 @@
+<div class="parent">
+    <h1>Details</h1>
+    <div class="voterInfo">
+        <div class="partSer">
+            <p>Part No.: </p>
+            <p>{{cardsData[0]?.partNo}}</p>
+            <p class="serial">S. No.: </p>
+            <p>{{cardsData[0]?.sNo}}</p>
+        </div>
+        <div class="epic">
+            <p>Epic No.: </p>
+            <p>{{cardsData[0]?.epicNumber}}</p>
+        </div>
+        <div class="name">
+            <p>Name: </p>
+            <p>John Doe</p>
+        </div>
+        <div class="fatherName">
+            <p>Father's Name: </p>
+            <p>John Doe</p>
+        </div>
+        <div class="address">
+            <p>Address: </p>
+            <p>add02</p>
+        </div>
+    </div>
+    <div class="reason">
+        <h2>Reason For Home Voting</h2>
+        <div class="infoReason">
+            <span>Not Willing</span>
+        </div>
+    </div>
+    <div class="availability">
+        <h3>Availability: </h3>
+        <form class="dropdown">
+            <mat-form-field>
+                <mat-label>Availability</mat-label>
+                <mat-select [(ngModel)]="selectedOption" (ngModelChange)="onSelectionChange()" name="selectedOption">
+                    <mat-option value="available">Available</mat-option>
+                    <mat-option value="not_available">Not Available</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </form>
+        <!-- <button mat-raised-button color="primary" *ngStyle="{'display': showNextButton ? 'block' : 'none'}">Next</button> -->
+
+    </div>
+    <div *ngIf="selectedOption">
+        <button mat-raised-button color="primary" [ngStyle]="{'display': 'block'}">Next</button>
+    </div>
+</div>

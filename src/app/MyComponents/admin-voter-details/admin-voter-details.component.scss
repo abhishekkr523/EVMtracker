@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+.parent {
+    min-height: 60vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,21 @@
+<div class="parent">
+    <div class="consti">
+        <h1 style="color: black;">Select the Team for its Tracking</h1>
+        <mat-card class="patan" routerLink="/tracker" [queryParams]="{ constituency: 'Jhalrapatan' }">Team A
+        </mat-card>
+        <mat-card class="manoharthana" routerLink="/tracker" [queryParams]="{ constituency: 'Manoharthana' }">
+            Team B</mat-card>
+        <mat-card class="dag" routerLink="/tracker" [queryParams]="{ constituency: 'Dag' }">Team C</mat-card>
+        <mat-card class="khanpur" routerLink="/tracker" [queryParams]="{ constituency: 'Khanpur' }">Team D</mat-card>
+    </div>
+    <div id="map"></div>
+    <!-- <div class="info">
+        <p>Latitude: {{ geolocationData?.coords?.latitude }}</p>
+        <p>Longitude: {{ geolocationData?.coords?.longitude }}</p>
+        <p>Accuracy: {{ geolocationData?.coords?.accuracy }} meters</p>
+        <p>Altitude: {{ geolocationData?.coords?.altitude }} meters</p>
+        <p>Altitude Accuracy: {{ geolocationData?.coords?.altitudeAccuracy }} meters</p>
+        <p>Heading: {{ geolocationData?.coords?.heading }} degrees</p>
+        <p>Speed: {{ geolocationData?.coords?.speed}} meters per second</p>
+    </div> -->
+</div> 

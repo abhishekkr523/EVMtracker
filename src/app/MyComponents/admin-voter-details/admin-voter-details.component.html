@@ -1,0 +1,52 @@
+<mat-card class="parent">
+    <mat-card-header>
+        <h1>Voter Details</h1>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="voterInfo">
+            <div class="partSer">
+                <div class="row">
+                    <p>Part No.: </p>
+                <p>{{cardsData[0]?.partNo}}</p>
+                </div>
+                <div class="row">
+                    <p class="serial">S. No.: </p>
+                <p>{{cardsData[0]?.sNo}}</p>
+                </div>
+            </div>
+            <div class="epic">
+                <div class="row">
+                    <p>Epic No.: </p>
+                <p>{{cardsData[0]?.epicNumber}}</p>
+                </div>
+            </div>
+            <div class="name">
+                <div class="row">
+                    <p>Name: </p>
+                <p>John Doe</p>
+                </div>
+            </div>
+            <div class="fatherName">
+                <div class="row">
+                    <p>Father's Name: </p>
+                <p>John Doe</p>
+                </div>
+            </div>
+            <div class="address">
+                <div class="row">
+                    <p>Address: </p>
+                <p>add02</p>
+                </div>
+            </div>
+        </div>
+        <div class="reason">
+            <h2>Reason For Home Voting</h2>
+            <div class="infoReason">
+                <span>Not Willing</span>
+            </div>
+        </div>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" mat-dialog-close>Close</button>
+    </mat-card-actions>
+</mat-card>

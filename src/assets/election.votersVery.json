@@ -1,0 +1,651 @@
+[{
+  "_id": {
+    "$oid": "654a658d9bccaaf6a67866df"
+  },
+  "partNo": 1001,
+  "sNo": 101,
+  "name": "jitesh",
+  "fathersName": "mohit",
+  "address": "add001",
+  "epicNumber": "en001",
+  "__v": 1,
+  "reasons": [
+    "not willing"
+  ],
+  "team": {
+    "$oid": "65467f6c981f8a5e164e16d9"
+  },
+  "locationToVisit": "Manoharthana",
+  "assignedDate": "15-11-2023",
+  "assignedTeam": "TeamA_Dag"
+},
+{
+  "_id": {
+    "$oid": "654a65f39bccaaf6a67866e1"
+  },
+  "partNo": 1002,
+  "sNo": 102,
+  "name": "hariom",
+  "fathersName": "rohan",
+  "address": "add002",
+  "epicNumber": "EN002",
+  "__v": 1,
+  "reasons": [
+    "not willing"
+  ],
+  "team": {
+    "$oid": "65467f6c981f8a5e164e16d9"
+  },
+  "locationToVisit": "Manoharthana",
+  "assignedDate": "14-11-2023",
+  "assignedTeam": "TeamA_Dag"
+},
+{
+  "_id": {
+    "$oid": "654a66199bccaaf6a67866e3"
+  },
+  "partNo": 1003,
+  "sNo": 103,
+  "name": "KUNAL",
+  "fathersName": "yogesh",
+  "address": "ADD003",
+  "epicNumber": "en003",
+  "__v": 1,
+  "reasons": [
+    "have no opinion"
+  ],
+  "team": {
+    "$oid": "65467f6c981f8a5e164e16d9"
+  },
+  "comments": "Rruy",
+  "departure_time": {
+    "$date": "2023-11-08T03:06:53.997Z"
+  },
+  "hasVoted": false,
+  "start_time": {
+    "$date": "2023-11-08T03:06:46.000Z"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Khanpur"
+},
+{
+  "_id": {
+    "$oid": "654a665d9bccaaf6a67866e5"
+  },
+  "partNo": 1004,
+  "sNo": 104,
+  "name": "harish",
+  "fathersName": "yashwant",
+  "address": "add004",
+  "epicNumber": "enn004",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "65467f6c981f8a5e164e16d9"
+  },
+  "assignedDate": "15-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a66f29bccaaf6a67866e7"
+  },
+  "partNo": 1005,
+  "sNo": 105,
+  "name": "deepak",
+  "fathersName": "harsh",
+  "address": "add005",
+  "epicNumber": "en005",
+  "isAvailable": true,
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "65467f6c981f8a5e164e16d9"
+  },
+  "departure_time": {
+    "$date": "2023-11-08T03:04:56.894Z"
+  },
+  "hasVoted": true,
+  "start_time": {
+    "$date": "2023-11-08T03:04:45.000Z"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a671a9bccaaf6a67866e9"
+  },
+  "partNo": 1006,
+  "sNo": 106,
+  "name": "ganesha",
+  "fathersName": "deepak",
+  "address": "add006",
+  "epicNumber": "en006",
+  "isAvailable": true,
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "65467fee981f8a5e164e16db"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Khanpur"
+},
+{
+  "_id": {
+    "$oid": "654a675b9bccaaf6a67866eb"
+  },
+  "partNo": 1007,
+  "sNo": 107,
+  "name": "krishna",
+  "fathersName": "deepak",
+  "address": "add001",
+  "epicNumber": "en007",
+  "isAvailable": true,
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "65467fee981f8a5e164e16db"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Jhalrapatan"
+},
+{
+  "_id": {
+    "$oid": "654a67789bccaaf6a67866ed"
+  },
+  "partNo": 1008,
+  "sNo": 108,
+  "name": "manish",
+  "fathersName": "ganesh",
+  "address": "add008",
+  "epicNumber": "en008",
+  "isAvailable": true,
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "65467fee981f8a5e164e16db"
+  },
+  "assignedDate": "17-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Dag"
+},
+{
+  "_id": {
+    "$oid": "654a67dd9bccaaf6a67866ef"
+  },
+  "partNo": 1009,
+  "sNo": 109,
+  "name": "rahul",
+  "fathersName": "manish",
+  "address": "add009",
+  "epicNumber": "en009",
+  "isAvailable": true,
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "65467fee981f8a5e164e16db"
+  },
+  "assignedDate": "16-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a68129bccaaf6a67866f1"
+  },
+  "partNo": 1010,
+  "sNo": 110,
+  "name": "ravu",
+  "fathersName": "rahul",
+  "address": "add0010",
+  "epicNumber": "en0010",
+  "isAvailable": true,
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "65467fee981f8a5e164e16db"
+  },
+  "assignedDate": "16-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Khanpur"
+},
+{
+  "_id": {
+    "$oid": "654a68e99bccaaf6a67866f3"
+  },
+  "partNo": 1011,
+  "sNo": 111,
+  "name": "shuki",
+  "fathersName": "ram",
+  "address": "add0011",
+  "epicNumber": "enn0011",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "654680a2955b78bcb1282c43"
+  },
+  "assignedDate": "15-11-2023",
+  "locationToVisit": "Jhalrapatan",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a699a9bccaaf6a67866f5"
+  },
+  "partNo": 1012,
+  "sNo": 112,
+  "name": "surendra",
+  "fathersName": "ravi",
+  "address": "add0012",
+  "epicNumber": "en0012",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "654680a2955b78bcb1282c43"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Jhalrapatan",
+  "assignedTeam": "TeamA_Dag"
+},
+{
+  "_id": {
+    "$oid": "654a6a039bccaaf6a67866f7"
+  },
+  "partNo": 1013,
+  "sNo": 113,
+  "name": "vishnu",
+  "fathersName": "ravi",
+  "address": "add0013",
+  "epicNumber": "en0013",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "654680a2955b78bcb1282c43"
+  },
+  "assignedDate": "16-11-2023",
+  "locationToVisit": "Jhalrapatan",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a6a339bccaaf6a67866f9"
+  },
+  "partNo": 1014,
+  "sNo": 114,
+  "name": "arvind",
+  "fathersName": "suresh",
+  "address": "add0014",
+  "epicNumber": "en0014",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "654680a2955b78bcb1282c43"
+  },
+  "assignedDate": "15-11-2023",
+  "locationToVisit": "Jhalrapatan",
+  "assignedTeam": "TeamA_Khanpur"
+},
+{
+  "_id": {
+    "$oid": "654a6a6b9bccaaf6a67866fb"
+  },
+  "partNo": 1015,
+  "sNo": 115,
+  "name": "suresh",
+  "fathersName": "pritam",
+  "address": "add0015",
+  "epicNumber": "en0015",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "654680a2955b78bcb1282c43"
+  },
+  "assignedDate": "17-11-2023",
+  "locationToVisit": "Jhalrapatan",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a6abc9bccaaf6a67866fd"
+  },
+  "partNo": 1016,
+  "sNo": 116,
+  "name": "chnadna",
+  "fathersName": "punit",
+  "address": "add0016",
+  "epicNumber": "en0016",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546811430bfd306fcb2e028"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Jhalrapatan"
+},
+{
+  "_id": {
+    "$oid": "654a6af29bccaaf6a67866ff"
+  },
+  "partNo": 1017,
+  "sNo": 117,
+  "name": "harsh",
+  "fathersName": "jitesh",
+  "address": "add0017",
+  "epicNumber": "en0017",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546811430bfd306fcb2e028"
+  },
+  "assignedDate": "15-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Khanpur"
+},
+{
+  "_id": {
+    "$oid": "654a6b249bccaaf6a6786701"
+  },
+  "partNo": 1018,
+  "sNo": 118,
+  "name": "suresh",
+  "fathersName": "chandra",
+  "address": "add0018",
+  "epicNumber": "enn0018",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546811430bfd306fcb2e028"
+  },
+  "assignedDate": "17-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a6b569bccaaf6a6786703"
+  },
+  "partNo": 1019,
+  "sNo": 119,
+  "name": "kamal",
+  "fathersName": "mahendra",
+  "address": "add0019",
+  "epicNumber": "enn0019",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546811430bfd306fcb2e028"
+  },
+  "assignedDate": "15-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a6ba79bccaaf6a6786705"
+  },
+  "partNo": 1020,
+  "sNo": 120,
+  "name": "harsh",
+  "fathersName": "kunal",
+  "address": "add0020",
+  "epicNumber": "enn0020",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546811430bfd306fcb2e028"
+  },
+  "assignedDate": "15-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Jhalrapatan"
+},
+{
+  "_id": {
+    "$oid": "654a6bd19bccaaf6a6786707"
+  },
+  "partNo": 1021,
+  "sNo": 121,
+  "name": "mohan",
+  "fathersName": "jitendra",
+  "address": "add0021",
+  "epicNumber": "enn0021",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546812730bfd306fcb2e02b"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Jhalrapatan"
+},
+{
+  "_id": {
+    "$oid": "654a6bee9bccaaf6a6786709"
+  },
+  "partNo": 1022,
+  "sNo": 122,
+  "name": "rakesh",
+  "fathersName": "suraj",
+  "address": "add0022",
+  "epicNumber": "en0022",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546812730bfd306fcb2e02b"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Dag"
+},
+{
+  "_id": {
+    "$oid": "654a6c189bccaaf6a678670b"
+  },
+  "partNo": 1023,
+  "sNo": 123,
+  "name": "hitesh",
+  "fathersName": "anant",
+  "address": "add0023",
+  "epicNumber": "en0023",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546812730bfd306fcb2e02b"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Khanpur"
+},
+{
+  "_id": {
+    "$oid": "654a6c319bccaaf6a678670d"
+  },
+  "partNo": 1024,
+  "sNo": 124,
+  "name": "bhaskar",
+  "fathersName": "dilip",
+  "address": "add0024",
+  "epicNumber": "en0024",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546812730bfd306fcb2e02b"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Jhalrapatan"
+},
+{
+  "_id": {
+    "$oid": "654a6c559bccaaf6a678670f"
+  },
+  "partNo": 1025,
+  "sNo": 125,
+  "name": "dinesh",
+  "fathersName": "HARISH",
+  "address": "ADD0025",
+  "epicNumber": "enn0025",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546812730bfd306fcb2e02b"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Manoharthana",
+  "assignedTeam": "TeamA_Jhalrapatan"
+},
+{
+  "_id": {
+    "$oid": "654a6c799bccaaf6a6786711"
+  },
+  "partNo": 1026,
+  "sNo": 126,
+  "name": "prabash",
+  "fathersName": "shankar",
+  "address": "add0026",
+  "epicNumber": "en0026",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546818530bfd306fcb2e050"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Dag"
+},
+{
+  "_id": {
+    "$oid": "654a6ca79bccaaf6a6786713"
+  },
+  "partNo": 1027,
+  "sNo": 127,
+  "name": "vikaram",
+  "fathersName": "rajesh",
+  "address": "add0027",
+  "epicNumber": "en0027",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546818530bfd306fcb2e050"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a6ceb9bccaaf6a6786715"
+  },
+  "partNo": 1028,
+  "sNo": 128,
+  "name": "arjun",
+  "fathersName": "balkram",
+  "address": "add0028",
+  "epicNumber": "en0028",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546818530bfd306fcb2e050"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Dag"
+},
+{
+  "_id": {
+    "$oid": "654a6d139bccaaf6a6786717"
+  },
+  "partNo": 1029,
+  "sNo": 129,
+  "name": "brijesh",
+  "fathersName": "kunal",
+  "address": "add0029",
+  "epicNumber": "en0029",
+  "reasons": [
+    "not willing"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546818530bfd306fcb2e050"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Manoharthana"
+},
+{
+  "_id": {
+    "$oid": "654a6d3c9bccaaf6a6786719"
+  },
+  "partNo": 1030,
+  "sNo": 130,
+  "name": "YOGESH",
+  "fathersName": "varun",
+  "address": "add0030",
+  "epicNumber": "en0030",
+  "reasons": [
+    "have no opinion"
+  ],
+  "__v": 0,
+  "team": {
+    "$oid": "6546818530bfd306fcb2e050"
+  },
+  "assignedDate": "14-11-2023",
+  "locationToVisit": "Dag",
+  "assignedTeam": "TeamA_Jhalrapatan"
+}]

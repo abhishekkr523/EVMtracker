@@ -1,0 +1,18 @@
+<div class="parent">
+    <div class="parentHead">
+        <h1>Constituencies</h1>
+        <div class="consti">
+            <mat-card class="patan" routerLink="/adminVoters" [queryParams]="{ constituency: 'Jhalrapatan' }">Jhalrapatan
+            </mat-card>
+            <mat-card class="manoharthana" routerLink="/adminVoters" [queryParams]="{ constituency: 'Manoharthana' }">
+                Manoharthana</mat-card>
+            <mat-card class="dag" routerLink="/adminVoters" [queryParams]="{ constituency: 'Dag' }">Dag</mat-card>
+            <mat-card class="khanpur" routerLink="/adminVoters" [queryParams]="{ constituency: 'Khanpur' }">Khanpur</mat-card>
+        </div>
+    </div>
+    <div class="constituencyChart">
+        <div class="chart">
+            <canvasjs-chart [options]="chartOptions" [styles]="{width: '200%', height:'460px'}"></canvasjs-chart>
+        </div>
+    </div>
+</div>

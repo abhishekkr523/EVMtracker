@@ -1,0 +1,35 @@
+<div class="parent">
+    <div class="header">
+        <h1>Voter List</h1>
+        <mat-card class="info">
+            <div class="userInfo">
+                <div class="route row">Route No.: <p>3</p>
+                </div>
+                <div class="date row">Date: <p>14/11/2023</p>
+                </div>
+                <div class="consti row">Constituency: <p>Manoharthana</p>
+                </div>
+            </div>
+            <div class="colorInfo">
+                <div class="pending">
+                    <div class="circle purple"></div>
+                    <div class="colorInfoText">Pending</div>
+                </div>
+                <div class="submitted">
+                    <div class="circle green"></div>
+                    <div class="colorInfoText">Submitted</div>
+                </div>
+                <div class="absent">
+                    <div class="circle red"></div>
+                    <div class="colorInfoText">Absent</div>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+    <div class="voters" *ngFor="let voter of voters">
+        <div class="voter" [ngClass]="{'voted-class': voter.voted, 'not-voted-class': !voter.voted}" (click)="voterClicked(); openDialog(voter)">
+            <div class="epic"> Epic No.: {{voter.epicNumber}}</div>
+            <div class="name">Name: {{voter.name}}</div>
+        </div>
+    </div>
+</div>

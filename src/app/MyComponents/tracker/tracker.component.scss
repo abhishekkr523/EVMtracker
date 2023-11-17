@@ -1,0 +1,38 @@
+.parent{
+    display: flex;
+    width: calc( 100vw - 100px );
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+
+    .consti{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 2rem;
+
+        mat-card{
+            margin: 0.5rem;
+            padding: 2rem;
+            font-size: 1rem;
+            height: 2rem;
+            width: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            background-color: peachpuff;
+            border-radius: 0.5rem;
+        }
+    }
+
+    #map {
+        width: 70%;
+        height: calc( 100vh - 100px );
+        overflow: hidden;
+        // background-color: red;
+        border-left: 1px solid black;
+    }
+}
